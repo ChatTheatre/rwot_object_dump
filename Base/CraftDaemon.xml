@@ -1,0 +1,7 @@
+<object program="/base/sys/craftd">
+  <Base:CraftDaemon>
+    <Base:Craftables/>
+    <Base:AllTools/>
+    <Base:AllIngredients/>
+  </Base:CraftDaemon>
+</object>

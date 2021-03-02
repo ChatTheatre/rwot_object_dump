@@ -1,7 +1,20 @@
 <object clone="/obj/properties" owner="Theatre">
   <Core:PropertyContainer>
     <Ur:UrObject/>
-    <Core:PCProperties/>
+    <Core:PCProperties>
+      <Core:Property property="err:e0244b704bbd9b919079fa4778945255:call-trace">
+         (\{ 138, "Neoct:Staff:Actions:+setp", "lib:propset2" \})
+      </Core:Property>
+      <Core:Property property="err:e0244b704bbd9b919079fa4778945255:error">
+         "Bad argument 1 (string) for function set_ur_object [caught]"
+      </Core:Property>
+      <Core:Property property="err:e0244b704bbd9b919079fa4778945255:most-recently-at">
+         1613917267
+      </Core:Property>
+      <Core:Property property="err:e0244b704bbd9b919079fa4778945255:total-times">
+         7
+      </Core:Property>
+    </Core:PCProperties>
     <Notes:Notes/>
   </Core:PropertyContainer>
 </object>

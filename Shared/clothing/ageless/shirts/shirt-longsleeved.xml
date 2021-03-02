@@ -130,9 +130,57 @@
          ([ "color":(\{ "default" \}), "condition":(\{ "default" \}), "fit":(\{ "default" \}), "material":(\{ "default" \}), "symbol":(\{ "default" \}) ])
       </Core:Property>
       <Core:Property property="revisions">
-         (\{ 1051617030, "sorcha", "K", 1053545106, "sorcha", "E", 1054468067, "kassommers", "K", 1054468178, "kassommers", "E", 1089351599, "tangerine", "X", 1089351972, "tangerine", "X", 1089352458, "tangerine", "X" \})
+         (\{ 1051617030, "sorcha", "K", 1053545106, "sorcha", "E", 1054468067, "kassommers", "K", 1054468178, "kassommers", "E", 1089351599, "tangerine", "X", 1089351972, "tangerine", "X", 1089352458, "tangerine", "X", 1614533571, "sarah", "PROOF", 1614533578, "sarah", "PROOF", 1614533584, "sarah", "PROOF", 1614533588, "sarah", "PROOF", 1614533594, "sarah", "PROOF", 1614533599, "sarah", "PROOF", 1614533608, "sarah", "PROOF", 1614533614, "sarah", "PROOF" \})
       </Core:Property>
       <Core:Property property="skill:fatigue">100.0</Core:Property>
+      <Core:Property property="sys:shared:proof:coverage">
+         1
+      </Core:Property>
+      <Core:Property property="sys:shared:proof:coverage-by">
+         (\{ 1614533599, "sarah" \})
+      </Core:Property>
+      <Core:Property property="sys:shared:proof:default-adjectives">
+         1
+      </Core:Property>
+      <Core:Property property="sys:shared:proof:default-adjectives-by">
+         (\{ 1614533594, "sarah" \})
+      </Core:Property>
+      <Core:Property property="sys:shared:proof:default-names">
+         1
+      </Core:Property>
+      <Core:Property property="sys:shared:proof:default-names-by">
+         (\{ 1614533588, "sarah" \})
+      </Core:Property>
+      <Core:Property property="sys:shared:proof:item-name">
+         1
+      </Core:Property>
+      <Core:Property property="sys:shared:proof:item-name-by">
+         (\{ 1614533578, "sarah" \})
+      </Core:Property>
+      <Core:Property property="sys:shared:proof:item-traits">
+         1
+      </Core:Property>
+      <Core:Property property="sys:shared:proof:item-traits-by">
+         (\{ 1614533584, "sarah" \})
+      </Core:Property>
+      <Core:Property property="sys:shared:proof:physicals">
+         1
+      </Core:Property>
+      <Core:Property property="sys:shared:proof:physicals-by">
+         (\{ 1614533614, "sarah" \})
+      </Core:Property>
+      <Core:Property property="sys:shared:proof:prime-descriptions">
+         1
+      </Core:Property>
+      <Core:Property property="sys:shared:proof:prime-descriptions-by">
+         (\{ 1614533571, "sarah" \})
+      </Core:Property>
+      <Core:Property property="sys:shared:proof:unique">
+         1
+      </Core:Property>
+      <Core:Property property="sys:shared:proof:unique-by">
+         (\{ 1614533608, "sarah" \})
+      </Core:Property>
       <Core:Property property="trait:color">"white"</Core:Property>
       <Core:Property property="trait:condition">
          "clean"

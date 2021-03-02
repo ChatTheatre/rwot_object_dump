@@ -273,7 +273,7 @@
              In the northern half of the western wall is a panelled oak door. A brass knob is attached to the edge of the door.
           </Base:Description>
         </Base:Descriptions>
-        <Base:Exit dest="NREF(Mansion:rooms:DiningRoom|exit east)" door="true" closed="true" locked="false" never_obvious="false" obvious_when_open="false" hidden_when_closed="false" separate="false" self-locking="false" deadbolt="false">
+        <Base:Exit dest="NREF(Mansion:rooms:DiningRoom|exit east)" door="true" closed="false" locked="false" never_obvious="false" obvious_when_open="false" hidden_when_closed="false" separate="false" self-locking="false" deadbolt="false">
           <Base:Direction dir="northwest"/>
         </Base:Exit>
         <Base:Climbable/>
@@ -325,7 +325,7 @@
              In the middle of the southern wall, flanked by closet doors, is a tall, wide panelled oak door. A brass knob and lock are attached to the edge of the door; a peephole is built into the middle of the door.
           </Base:Description>
         </Base:Descriptions>
-        <Base:Exit dest="NREF(Mansion:rooms:Vestibule|exit north)" door="true" closed="true" locked="true" never_obvious="false" obvious_when_open="false" hidden_when_closed="false" separate="false" keycode="Gables" self-locking="false" deadbolt="false">
+        <Base:Exit dest="NREF(Mansion:rooms:Vestibule|exit north)" door="true" closed="false" locked="false" never_obvious="false" obvious_when_open="false" hidden_when_closed="false" separate="false" keycode="Gables" self-locking="false" deadbolt="false">
           <Base:Direction dir="south"/>
         </Base:Exit>
         <Base:Climbable/>

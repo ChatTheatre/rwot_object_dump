@@ -1,0 +1,96 @@
+<object clone="/base/obj/thing" owner="SkotOS">
+  <Base:Thing>
+    <Ur:UrObject urobject="OBJ(RWOT:Rooms:Buildings:EventCenter:UrEventCenter)"/>
+    <Base:Bulk immobile="false" mass="1" density="1"/>
+    <Base:Container flexible="false" transparent-container="false" public-container="false" tight="false" capacity="1" maxweight="1"/>
+    <Base:Misc gender="neuter" volition="false" weapon="false" default_stance="none" combinable="false" discrete="false" by_weight="false" tight="false" scriptrunner="false">
+      <Base:Edible value="false"/>
+      <Base:Potable value="false"/>
+      <Base:DrinkMessageFirst/>
+      <Base:DrinkMessageThird/>
+      <Base:Transparency value="false"/>
+      <Base:Unsafe value="false"/>
+      <Base:Safe value="false"/>
+      <Base:ClothesExpected value="false"/>
+      <Base:DieMessageFirst/>
+      <Base:DieMessageThird/>
+    </Base:Misc>
+    <Base:Details>
+      <Base:Detail id="default" prime="true" def="false" abstract="false" hidden="false" luminosity="0" targetable_in_dark="false" plural="false">
+        <Base:Preposition close="false" against="false" under="false" on="false" inside="false" near="false" over="false" behind="false" before="false" beside="false"/>
+        <Base:Names>
+          <Base:SNames>
+            <Base:SName sname="shop"/>
+            <Base:SName sname="room"/>
+          </Base:SNames>
+          <Base:PNames>
+            <Base:PName pname="rooms"/>
+            <Base:PName pname="shops"/>
+          </Base:PNames>
+        </Base:Names>
+        <Base:Adjectives>
+          <Base:Adjective adjective="coffee"/>
+        </Base:Adjectives>
+        <Base:Descriptions>
+          <Base:Description type="brief">
+             coffee shop
+          </Base:Description>
+          <Base:Description type="glance">
+             A quaint coffee shop.
+          </Base:Description>
+          <Base:Description type="look">
+             A quaint coffee shop.
+          </Base:Description>
+        </Base:Descriptions>
+        <Base:Exit door="false" closed="false" locked="false" never_obvious="false" obvious_when_open="false" hidden_when_closed="false" separate="false" self-locking="false" deadbolt="false"/>
+        <Base:Climbable/>
+      </Base:Detail>
+      <Base:Detail id="exit-northeast" prime="false" def="false" abstract="false" hidden="false" luminosity="0" targetable_in_dark="false" plural="false">
+        <Base:Preposition close="true" against="true" under="false" on="true" inside="false" near="true" over="true" behind="false" before="true" beside="true"/>
+        <Base:Names>
+          <Base:SNames>
+            <Base:SName sname="door"/>
+            <Base:SName sname="northeast"/>
+          </Base:SNames>
+          <Base:PNames>
+            <Base:PName pname="doors"/>
+            <Base:PName pname="northeasts"/>
+          </Base:PNames>
+        </Base:Names>
+        <Base:Adjectives>
+          <Base:Adjective adjective="glass"/>
+          <Base:Adjective adjective="lobby"/>
+        </Base:Adjectives>
+        <Base:Descriptions>
+          <Base:Description type="brief">
+             glass door <exit-brief/>
+          </Base:Description>
+          <Base:Description type="look">
+             A glass door.
+          </Base:Description>
+        </Base:Descriptions>
+        <Base:Exit dest="NREF(RWOT:Rooms:Buildings:EventCenter:FirstFloor:Lobby|exit-southwest)" door="true" closed="false" locked="false" never_obvious="false" obvious_when_open="false" hidden_when_closed="false" separate="false" self-locking="false" deadbolt="false">
+          <Base:Direction dir="northeast"/>
+        </Base:Exit>
+        <Base:Climbable/>
+      </Base:Detail>
+    </Base:Details>
+    <Base:Clothing>
+      <Base:SingleWear value="false"/>
+    </Base:Clothing>
+    <Base:Crafting see_level="0" do_level="0" time="0" attention="false" held="false">
+      <Base:Ingredients/>
+      <Base:Tools/>
+      <Base:CraftVerbs/>
+    </Base:Crafting>
+    <Base:InitialContents/>
+    <Base:InitialProperties/>
+    <Core:Properties>
+      <Core:Property property="revisions">
+         (\{ 1144052085, "-", "SYNC", 1613917267, "sarah", "S", 1613917301, "sarah", "S", 1613917455, "sarah", "K", 1613917474, "sarah", "K", 1613917705, "sarah", "E", 1613917837, "sarah", "R", 1613917911, "sarah", "R", 1613918022, "sarah", "K", 1613920517, "sarah", "E", 1613921179, "sarah", "X", 1613921347, "sarah", "R", 1613921586, "sarah", "E", 1613921589, "sarah", "E", 1613922159, "sarah", "E", 1613922166, "sarah", "E", 1613922390, "sarah", "K" \})
+      </Core:Property>
+      <Core:Property property="skill:fatigue">1.0</Core:Property>
+    </Core:Properties>
+    <Notes:Notes/>
+  </Base:Thing>
+</object>

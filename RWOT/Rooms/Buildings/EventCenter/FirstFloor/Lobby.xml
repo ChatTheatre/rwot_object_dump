@@ -1,0 +1,245 @@
+<object clone="/base/obj/thing" owner="SkotOS">
+  <Base:Thing>
+    <Ur:UrObject urobject="OBJ(RWOT:Rooms:Buildings:EventCenter:UrEventCenter)"/>
+    <Base:Bulk immobile="false" mass="1" density="1"/>
+    <Base:Container flexible="false" transparent-container="false" public-container="false" tight="false" capacity="1" maxweight="1"/>
+    <Base:Misc gender="neuter" volition="false" weapon="false" default_stance="none" combinable="false" discrete="false" by_weight="false" tight="false" scriptrunner="false">
+      <Base:Edible value="false"/>
+      <Base:Potable value="false"/>
+      <Base:DrinkMessageFirst/>
+      <Base:DrinkMessageThird/>
+      <Base:Transparency value="false"/>
+      <Base:Unsafe value="false"/>
+      <Base:Safe value="false"/>
+      <Base:ClothesExpected value="false"/>
+      <Base:DieMessageFirst/>
+      <Base:DieMessageThird/>
+    </Base:Misc>
+    <Base:Details>
+      <Base:Detail id="default" prime="true" def="true" abstract="false" hidden="false" luminosity="0" targetable_in_dark="false" plural="false">
+        <Base:Preposition close="false" against="false" under="false" on="false" inside="false" near="false" over="false" behind="false" before="false" beside="false"/>
+        <Base:Names>
+          <Base:SNames>
+            <Base:SName sname="lobby"/>
+            <Base:SName sname="center"/>
+            <Base:SName sname="room"/>
+          </Base:SNames>
+          <Base:PNames>
+            <Base:PName pname="rooms"/>
+            <Base:PName pname="centers"/>
+            <Base:PName pname="lobbies"/>
+          </Base:PNames>
+        </Base:Names>
+        <Base:Adjectives>
+          <Base:Adjective adjective="center"/>
+          <Base:Adjective adjective="event"/>
+        </Base:Adjectives>
+        <Base:Descriptions>
+          <Base:Description type="brief">
+             the lobby of the $(this.trait:buildingname)
+          </Base:Description>
+          <Base:Description type="glance">
+             The lobby of the $(this.trait:buildingname).
+          </Base:Description>
+          <Base:Description type="look">
+             The lobby of the $(this.trait:buildingname).
+          </Base:Description>
+        </Base:Descriptions>
+        <Base:Exit door="false" closed="false" locked="false" never_obvious="false" obvious_when_open="false" hidden_when_closed="false" separate="false" self-locking="false" deadbolt="false"/>
+        <Base:Climbable/>
+      </Base:Detail>
+      <Base:Detail id="exit-east" prime="false" def="false" abstract="false" hidden="false" luminosity="0" targetable_in_dark="false" plural="false">
+        <Base:Preposition close="true" against="true" under="false" on="false" inside="false" near="true" over="true" behind="false" before="true" beside="true"/>
+        <Base:Names>
+          <Base:SNames>
+            <Base:SName sname="east"/>
+            <Base:SName sname="door"/>
+            <Base:SName sname="exit"/>
+          </Base:SNames>
+          <Base:PNames>
+            <Base:PName pname="doors"/>
+            <Base:PName pname="easts"/>
+            <Base:PName pname="exits"/>
+          </Base:PNames>
+        </Base:Names>
+        <Base:Adjectives>
+          <Base:Adjective adjective="ornate"/>
+          <Base:Adjective adjective="personal"/>
+          <Base:Adjective adjective="suite"/>
+        </Base:Adjectives>
+        <Base:Descriptions>
+          <Base:Description type="brief">
+             ornate door <exit-brief/>
+          </Base:Description>
+        </Base:Descriptions>
+        <Base:Exit dest="NREF(RWOT:Rooms:Buildings:EventCenter:FirstFloor:PersonalRoom|exit-west)" door="true" closed="true" locked="false" never_obvious="false" obvious_when_open="false" hidden_when_closed="false" separate="false" self-locking="false" deadbolt="false">
+          <Base:Direction dir="east"/>
+        </Base:Exit>
+        <Base:Climbable/>
+      </Base:Detail>
+      <Base:Detail id="exit-north" prime="false" def="false" abstract="false" hidden="false" luminosity="0" targetable_in_dark="false" plural="false">
+        <Base:Preposition close="true" against="true" under="false" on="false" inside="false" near="true" over="true" behind="false" before="true" beside="true"/>
+        <Base:Names>
+          <Base:SNames>
+            <Base:SName sname="north"/>
+            <Base:SName sname="door"/>
+            <Base:SName sname="exit"/>
+          </Base:SNames>
+          <Base:PNames>
+            <Base:PName pname="doors"/>
+            <Base:PName pname="norths"/>
+            <Base:PName pname="exits"/>
+          </Base:PNames>
+        </Base:Names>
+        <Base:Adjectives>
+          <Base:Adjective adjective="auditorium"/>
+          <Base:Adjective adjective="public"/>
+        </Base:Adjectives>
+        <Base:Descriptions>
+          <Base:Description type="brief">
+             set of double doors <exit-brief/>
+          </Base:Description>
+        </Base:Descriptions>
+        <Base:Exit dest="NREF(RWOT:Rooms:Buildings:EventCenter:FirstFloor:PublicAuditorium|exit-south)" door="true" closed="true" locked="false" never_obvious="false" obvious_when_open="false" hidden_when_closed="false" separate="false" self-locking="false" deadbolt="false">
+          <Base:Direction dir="north"/>
+        </Base:Exit>
+        <Base:Climbable/>
+      </Base:Detail>
+      <Base:Detail id="exit-northeast" prime="false" def="false" abstract="false" hidden="false" luminosity="0" targetable_in_dark="false" plural="false">
+        <Base:Preposition close="true" against="true" under="false" on="false" inside="false" near="true" over="true" behind="false" before="true" beside="true"/>
+        <Base:Names>
+          <Base:SNames>
+            <Base:SName sname="northeast"/>
+            <Base:SName sname="door"/>
+            <Base:SName sname="exit"/>
+          </Base:SNames>
+          <Base:PNames>
+            <Base:PName pname="doors"/>
+            <Base:PName pname="northeasts"/>
+            <Base:PName pname="exits"/>
+          </Base:PNames>
+        </Base:Names>
+        <Base:Adjectives>
+          <Base:Adjective adjective="auditorium"/>
+          <Base:Adjective adjective="double"/>
+          <Base:Adjective adjective="event"/>
+        </Base:Adjectives>
+        <Base:Descriptions>
+          <Base:Description type="brief">
+             set of double doors <exit-brief/>
+          </Base:Description>
+        </Base:Descriptions>
+        <Base:Exit dest="NREF(RWOT:Rooms:Buildings:EventCenter:FirstFloor:EventAuditorium|exit-southwest)" door="true" closed="true" locked="false" never_obvious="false" obvious_when_open="false" hidden_when_closed="false" separate="false" self-locking="false" deadbolt="false">
+          <Base:Direction dir="northeast"/>
+        </Base:Exit>
+        <Base:Climbable/>
+      </Base:Detail>
+      <Base:Detail id="exit-northwest" prime="false" def="false" abstract="false" hidden="false" luminosity="0" targetable_in_dark="false" plural="false">
+        <Base:Preposition close="true" against="true" under="false" on="false" inside="false" near="true" over="true" behind="false" before="true" beside="true"/>
+        <Base:Names>
+          <Base:SNames>
+            <Base:SName sname="northwest"/>
+            <Base:SName sname="exit"/>
+            <Base:SName sname="walkway"/>
+            <Base:SName sname="desk"/>
+          </Base:SNames>
+          <Base:PNames>
+            <Base:PName pname="northwests"/>
+            <Base:PName pname="exits"/>
+            <Base:PName pname="walkway"/>
+            <Base:PName pname="desks"/>
+          </Base:PNames>
+        </Base:Names>
+        <Base:Adjectives>
+          <Base:Adjective adjective="desk"/>
+          <Base:Adjective adjective="topic"/>
+        </Base:Adjectives>
+        <Base:Descriptions>
+          <Base:Description type="brief">
+             walkway <exit-brief/>
+          </Base:Description>
+        </Base:Descriptions>
+        <Base:Exit dest="NREF(RWOT:Rooms:Buildings:EventCenter:FirstFloor:TopicDesk|exit-southeast)" door="false" closed="false" locked="false" never_obvious="false" obvious_when_open="false" hidden_when_closed="false" separate="false" self-locking="false" deadbolt="false">
+          <Base:Direction dir="northwest"/>
+        </Base:Exit>
+        <Base:Climbable/>
+      </Base:Detail>
+      <Base:Detail id="exit-southwest" prime="false" def="false" abstract="false" hidden="false" luminosity="0" targetable_in_dark="false" plural="false">
+        <Base:Preposition close="true" against="true" under="false" on="false" inside="false" near="true" over="true" behind="false" before="true" beside="true"/>
+        <Base:Names>
+          <Base:SNames>
+            <Base:SName sname="southwest"/>
+            <Base:SName sname="exit"/>
+            <Base:SName sname="door"/>
+          </Base:SNames>
+          <Base:PNames>
+            <Base:PName pname="doors"/>
+            <Base:PName pname="southwests"/>
+            <Base:PName pname="exits"/>
+          </Base:PNames>
+        </Base:Names>
+        <Base:Adjectives>
+          <Base:Adjective adjective="coffee"/>
+          <Base:Adjective adjective="glass"/>
+          <Base:Adjective adjective="shop"/>
+        </Base:Adjectives>
+        <Base:Descriptions>
+          <Base:Description type="brief">
+             glass door <exit-brief/>
+          </Base:Description>
+        </Base:Descriptions>
+        <Base:Exit dest="NREF(RWOT:Rooms:Buildings:EventCenter:FirstFloor:CoffeeShop|exit-northeast)" door="true" closed="true" locked="false" never_obvious="false" obvious_when_open="false" hidden_when_closed="false" separate="false" self-locking="false" deadbolt="false">
+          <Base:Direction dir="southwest"/>
+        </Base:Exit>
+        <Base:Climbable/>
+      </Base:Detail>
+      <Base:Detail id="exit-west" prime="false" def="false" abstract="false" hidden="false" luminosity="0" targetable_in_dark="false" plural="false">
+        <Base:Preposition close="true" against="true" under="false" on="false" inside="false" near="true" over="true" behind="false" before="true" beside="true"/>
+        <Base:Names>
+          <Base:SNames>
+            <Base:SName sname="west"/>
+            <Base:SName sname="exit"/>
+            <Base:SName sname="walkway"/>
+            <Base:SName sname="desk"/>
+          </Base:SNames>
+          <Base:PNames>
+            <Base:PName pname="wests"/>
+            <Base:PName pname="exits"/>
+            <Base:PName pname="walkways"/>
+            <Base:PName pname="desks"/>
+          </Base:PNames>
+        </Base:Names>
+        <Base:Adjectives>
+          <Base:Adjective adjective="checkin"/>
+          <Base:Adjective adjective="desk"/>
+        </Base:Adjectives>
+        <Base:Descriptions>
+          <Base:Description type="brief">
+             walkway <exit-brief/>
+          </Base:Description>
+        </Base:Descriptions>
+        <Base:Exit dest="NREF(RWOT:Rooms:Buildings:EventCenter:FirstFloor:Checkin|exit-east)" door="false" closed="false" locked="false" never_obvious="false" obvious_when_open="false" hidden_when_closed="false" separate="false" self-locking="false" deadbolt="false">
+          <Base:Direction dir="west"/>
+        </Base:Exit>
+        <Base:Climbable/>
+      </Base:Detail>
+    </Base:Details>
+    <Base:Clothing>
+      <Base:SingleWear value="false"/>
+    </Base:Clothing>
+    <Base:Crafting see_level="0" do_level="0" time="0" attention="false" held="false">
+      <Base:Ingredients/>
+      <Base:Tools/>
+      <Base:CraftVerbs/>
+    </Base:Crafting>
+    <Base:InitialContents/>
+    <Base:InitialProperties/>
+    <Core:Properties>
+      <Core:Property property="revisions">
+         (\{ 1144052085, "-", "SYNC", 1613917267, "sarah", "S", 1613917301, "sarah", "S", 1613917401, "sarah", "K", 1613917423, "sarah", "E", 1613917484, "sarah", "K", 1613917697, "sarah", "E", 1613917828, "sarah", "R", 1613917924, "sarah", "R", 1613918044, "sarah", "K", 1613918535, "sarah", "K", 1613918925, "sarah", "E", 1613919922, "sarah", "K", 1613920139, "sarah", "K", 1613920250, "sarah", "E", 1613920276, "sarah", "E", 1613920317, "sarah", "E", 1613920346, "sarah", "E", 1613920377, "sarah", "K", 1613920403, "sarah", "E", 1613920427, "sarah", "E", 1613920657, "sarah", "E", 1613920707, "sarah", "X", 1613920716, "sarah", "X", 1613920733, "sarah", "X", 1613920741, "sarah", "X", 1613920748, "sarah", "X", 1613921078, "sarah", "K", 1613921361, "sarah", "R", 1613921429, "sarah", "K", 1613921493, "sarah", "K", 1613921987, "sarah", "S", 1613922006, "sarah", "E", 1613922013, "sarah", "E", 1613922021, "sarah", "E", 1613922027, "sarah", "E", 1613922033, "sarah", "E", 1613922039, "sarah", "E", 1613922048, "sarah", "E", 1613922101, "sarah", "E", 1613922302, "sarah", "E" \})
+      </Core:Property>
+      <Core:Property property="skill:fatigue">1.0</Core:Property>
+    </Core:Properties>
+    <Notes:Notes/>
+  </Base:Thing>
+</object>

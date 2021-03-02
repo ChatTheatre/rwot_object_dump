@@ -92,7 +92,7 @@
              Near the southern end of the eastern wall is a panelled oak door. A brass knob is attached to the edge of the door.
           </Base:Description>
         </Base:Descriptions>
-        <Base:Exit dest="NREF(Mansion:rooms:Hall|exit northwest)" door="true" closed="true" locked="false" never_obvious="false" obvious_when_open="false" hidden_when_closed="false" separate="false" self-locking="false" deadbolt="false">
+        <Base:Exit dest="NREF(Mansion:rooms:Hall|exit northwest)" door="true" closed="false" locked="false" never_obvious="false" obvious_when_open="false" hidden_when_closed="false" separate="false" self-locking="false" deadbolt="false">
           <Base:Direction dir="east"/>
           <Base:Direction dir="southeast"/>
         </Base:Exit>

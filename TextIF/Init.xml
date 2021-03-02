@@ -2,7 +2,6 @@
   <TextIF:Init>
     <TextIF:Banner>
        Welcome to <b>vRWOT</b>!<br/>
-
 <br/><br/>
 To enable/disable chatmode, type <acmd cmd="/chatmode">/chatmode</acmd>. For more help on this, see <helplink to="chatmode">the help topic</helplink>.<br/><br/>
 <atag tag="imp">Want to customize your character? <acmd cmd="@chargen">Click here!</acmd></atag><br/><br/>

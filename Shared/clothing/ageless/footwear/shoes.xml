@@ -28,10 +28,7 @@
             <Base:PName pname="shoes"/>
           </Base:PNames>
         </Base:Names>
-        <Base:Adjectives>
-          <Base:Adjective adjective="cotton"/>
-          <Base:Adjective adjective="white"/>
-        </Base:Adjectives>
+        <Base:Adjectives/>
         <Base:Descriptions>
           <Base:Description type="brief">
              $(this.trait:color) $(this.trait:material) shoes
@@ -63,7 +60,7 @@
          "white"
       </Base:InitialProperty>
       <Base:InitialProperty property="trait:material">
-         "cotton"
+         "leather"
       </Base:InitialProperty>
     </Base:InitialProperties>
     <Core:Properties>
@@ -73,8 +70,11 @@
       <Core:Property property="old-trait:condition">
          "clean"
       </Core:Property>
+      <Core:Property property="old-trait:material">
+         "cotton"
+      </Core:Property>
       <Core:Property property="revisions">
-         (\{ 1075934045, "sorcha", "X", 1164102327, "zwoc", "PROOF", 1164203748, "-", "SHARED-AUTOCLEAN" \})
+         (\{ 1075934045, "sorcha", "X", 1164102327, "zwoc", "PROOF", 1164203748, "-", "SHARED-AUTOCLEAN", 1614533953, "sarah", "E" \})
       </Core:Property>
       <Core:Property property="skill:fatigue">1.0</Core:Property>
       <Core:Property property="sys:shared:clothing:morph">
@@ -82,7 +82,7 @@
       </Core:Property>
       <Core:Property property="trait:color">"white"</Core:Property>
       <Core:Property property="trait:material">
-         "cotton"
+         "leather"
       </Core:Property>
     </Core:Properties>
     <Notes:Notes/>

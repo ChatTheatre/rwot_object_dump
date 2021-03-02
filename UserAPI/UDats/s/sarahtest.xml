@@ -1,0 +1,12 @@
+<object clone="/usr/UserAPI/obj/udat" owner="UserAPI">
+  <UserAPI:UDat>
+    <Core:Properties>
+      <Core:Property property="tas:lastalert">
+         1613922767
+      </Core:Property>
+    </Core:Properties>
+    <UserAPI:Bodies>
+      <UserAPI:Body char="sarahtest:tavern" body="OBJ(Chatters:Tavern:sa:sarahtest)"/>
+    </UserAPI:Bodies>
+  </UserAPI:UDat>
+</object>

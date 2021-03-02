@@ -1,0 +1,34 @@
+<object clone="/usr/SkotOS/obj/mersamtag" owner="sarah">
+  <SkotOS:MerSAMTag tag_name="exit-brief">
+    <Core:PCProperties>
+      <Core:Property property="merry:global:tag">
+         X[M] object dest, room;
+string exitType;
+
+room = NRefOb(\$target);
+
+if(!Get(room, "details:" + \$detail + ":exit:dest")) \{
+    return "leading to " + replace_strings(\$detail, 
+                                            "exit-west", "the west",
+                                            "exit-northwest", "the northwest",
+                                            "exit-north", "the north",
+                                            "exit-northeast", "the northeast",
+                                            "exit-east", "the east", 
+                                            "exit-southeast", "the southeast", 
+                                            "exit-south", "the south",
+                                            "exit-southwest", "the southwest", 
+                                            "exit-up", "up",
+                                            "exit-down", "down");
+\} else \{
+    dest = Get(room, "details:" + \$detail + ":exit:dest");
+    return "leading to " + Describe(NRefOb(dest));
+\}
+
+return nil;
+      </Core:Property>
+      <Core:Property property="revisions">
+         (\{ 1613918474, "sarah", "E", 1613918780, "sarah", "R", 1613918841, "sarah", "E", 1613919321, "sarah", "E", 1613919402, "sarah", "E", 1613919420, "sarah", "E", 1613919484, "sarah", "E", 1613919650, "sarah", "E", 1613919742, "sarah", "E", 1613919746, "sarah", "R", 1613920193, "sarah", "E", 1613920581, "sarah", "E" \})
+      </Core:Property>
+    </Core:PCProperties>
+  </SkotOS:MerSAMTag>
+</object>

@@ -275,10 +275,10 @@
              $(this.appearance:leg:length) $(this.appearance:leg:type) leg
           </Base:Description>
           <Base:Description type="examine">
-             One of four $(this.appearance:leg:length) $(this.appearance:leg:type) legs, {?when| $(this.base:stance) | 3 |         all of which are comfortably tucked beneath the $(this.appearance:dog:size) dog's body.          | 4 |         currently sat upon.          | * |         supporting the $(this.appearance:dog:size) dog's body. }
+             One of four $(this.appearance:leg:length) $(this.appearance:leg:type) legs, {?when| $(this.base:stance) | 3 |          all of which are comfortably tucked beneath the $(this.appearance:dog:size) dog's body.           | 4 |          currently sat upon.           | * |          supporting the $(this.appearance:dog:size) dog's body. }
           </Base:Description>
           <Base:Description type="look">
-             One of four $(this.appearance:leg:length) $(this.appearance:leg:type) legs, {?when| $(this.base:stance) | 3 |         all of which are comfortably tucked beneath the $(this.appearance:dog:size) dog's body.          | 4 |         currently sat upon.          | * |         supporting the $(this.appearance:dog:size) dog's body. }
+             One of four $(this.appearance:leg:length) $(this.appearance:leg:type) legs, {?when| $(this.base:stance) | 3 |          all of which are comfortably tucked beneath the $(this.appearance:dog:size) dog's body.           | 4 |          currently sat upon.           | * |          supporting the $(this.appearance:dog:size) dog's body. }
           </Base:Description>
         </Base:Descriptions>
         <Base:Exit door="false" closed="false" locked="false" never_obvious="false" obvious_when_open="false" hidden_when_closed="false" separate="false" self-locking="false" deadbolt="false"/>
@@ -298,7 +298,7 @@
              $(this.appearance:leg:length) $(this.appearance:leg:type) legs
           </Base:Description>
           <Base:Description type="look">
-             Four $(this.appearance:leg:length) $(this.appearance:leg:type) legs, {?when| $(this.base:stance) | 3 |         all of which are comfortably tucked beneath the $(this.appearance:dog:size) dog's body.          | 4 |         currently sat upon.          | * |         supporting the $(this.appearance:dog:size) dog's body. }
+             Four $(this.appearance:leg:length) $(this.appearance:leg:type) legs, {?when| $(this.base:stance) | 3 |          all of which are comfortably tucked beneath the $(this.appearance:dog:size) dog's body.           | 4 |          currently sat upon.           | * |          supporting the $(this.appearance:dog:size) dog's body. }
           </Base:Description>
         </Base:Descriptions>
         <Base:Exit door="false" closed="false" locked="false" never_obvious="false" obvious_when_open="false" hidden_when_closed="false" separate="false" self-locking="false" deadbolt="false"/>

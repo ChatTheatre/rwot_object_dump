@@ -98,7 +98,7 @@
              A tall, wide oak door is set in the middle of the northern wall. A brass knob and lock are attached to the edge of the door; a small peephole is set in the middle of the door.
           </Base:Description>
         </Base:Descriptions>
-        <Base:Exit dest="NREF(Mansion:rooms:Hall|exit south)" door="true" closed="true" locked="true" never_obvious="false" obvious_when_open="false" hidden_when_closed="false" separate="false" keycode="Gables" self-locking="false" deadbolt="false">
+        <Base:Exit dest="NREF(Mansion:rooms:Hall|exit south)" door="true" closed="false" locked="false" never_obvious="false" obvious_when_open="false" hidden_when_closed="false" separate="false" keycode="Gables" self-locking="false" deadbolt="false">
           <Base:Direction dir="north"/>
         </Base:Exit>
         <Base:Climbable/>

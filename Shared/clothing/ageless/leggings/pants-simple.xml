@@ -80,11 +80,20 @@
          "clean"
       </Core:Property>
       <Core:Property property="revisions">
-         (\{ 1141061154, "-", "SYNC", 1163445530, "christophera", "E", 1163446273, "christophera", "E", 1163446299, "christophera", "E", 1163447247, "christophera", "E", 1163448069, "christophera", "PROOF", 1163448139, "christophera", "PROOF", 1163448257, "christophera", "PROOF", 1163448361, "christophera", "PROOF", 1163726219, "christophera", "E", 1163726266, "christophera", "E", 1163726433, "christophera", "E", 1163726560, "christophera", "E", 1163726591, "christophera", "PROOF", 1163726607, "christophera", "PROOF", 1163727933, "christophera", "PROOF", 1163727943, "christophera", "PROOF", 1163727963, "christophera", "PROOF", 1163728037, "christophera", "E", 1163728058, "christophera", "PROOF", 1163728269, "christophera", "PROOF", 1163728424, "christophera", "PROOF", 1163729779, "christophera", "PROOF", 1163767813, "zwoc", "PROOF", 1163767847, "zwoc", "PROOF", 1164102327, "zwoc", "PROOF", 1164203742, "-", "SHARED-AUTOCLEAN" \})
+         (\{ 1141061154, "-", "SYNC", 1163445530, "christophera", "E", 1163446273, "christophera", "E", 1163446299, "christophera", "E", 1163447247, "christophera", "E", 1163448069, "christophera", "PROOF", 1163448139, "christophera", "PROOF", 1163448257, "christophera", "PROOF", 1163448361, "christophera", "PROOF", 1163726219, "christophera", "E", 1163726266, "christophera", "E", 1163726433, "christophera", "E", 1163726560, "christophera", "E", 1163726591, "christophera", "PROOF", 1163726607, "christophera", "PROOF", 1163727933, "christophera", "PROOF", 1163727943, "christophera", "PROOF", 1163727963, "christophera", "PROOF", 1163728037, "christophera", "E", 1163728058, "christophera", "PROOF", 1163728269, "christophera", "PROOF", 1163728424, "christophera", "PROOF", 1163729779, "christophera", "PROOF", 1163767813, "zwoc", "PROOF", 1163767847, "zwoc", "PROOF", 1164102327, "zwoc", "PROOF", 1164203742, "-", "SHARED-AUTOCLEAN", 1614533375, "sarah", "PROOF" \})
       </Core:Property>
       <Core:Property property="skill:fatigue">100.0</Core:Property>
       <Core:Property property="sys:shared:clothing:morph">
          0
+      </Core:Property>
+      <Core:Property property="sys:shared:proof-announced">
+         1
+      </Core:Property>
+      <Core:Property property="sys:shared:proof-by">
+         "sarah"
+      </Core:Property>
+      <Core:Property property="sys:shared:proof-completion">
+         1614533375
       </Core:Property>
       <Core:Property property="sys:shared:proof:coverage">
          1
@@ -122,8 +131,11 @@
       <Core:Property property="sys:shared:proof:physicals-by">
          (\{ 1163728058, "christophera" \})
       </Core:Property>
+      <Core:Property property="sys:shared:proof:prime-descriptions">
+         1
+      </Core:Property>
       <Core:Property property="sys:shared:proof:prime-descriptions-by">
-         (\{ 1163767813, "zwoc" \})
+         (\{ 1614533375, "sarah" \})
       </Core:Property>
       <Core:Property property="sys:shared:proof:prime-names">
          1
@@ -143,6 +155,7 @@
       <Core:Property property="sys:shared:proof:woe-notes-by">
          (\{ 1163728424, "christophera" \})
       </Core:Property>
+      <Core:Property property="sys:shared:proofed">1</Core:Property>
       <Core:Property property="sys:shared:reference-object">
          1
       </Core:Property>

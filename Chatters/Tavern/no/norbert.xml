@@ -1,0 +1,334 @@
+<object clone="/base/obj/thing" owner="Theatre">
+  <Base:Thing>
+    <Ur:UrObject urobject="OBJ(Mansion:MaleSmall)"/>
+    <Base:Bulk immobile="false" mass="1" density="1"/>
+    <Base:Container flexible="false" transparent-container="false" public-container="false" tight="false" capacity="1" maxweight="1"/>
+    <Base:Misc gender="male" volition="false" weapon="false" default_stance="none" combinable="false" discrete="false" by_weight="false" tight="false" scriptrunner="false">
+      <Base:Edible value="false"/>
+      <Base:Potable value="false"/>
+      <Base:DrinkMessageFirst/>
+      <Base:DrinkMessageThird/>
+      <Base:Transparency value="false"/>
+      <Base:Unsafe value="false"/>
+      <Base:Safe value="false"/>
+      <Base:ClothesExpected value="false"/>
+      <Base:DieMessageFirst/>
+      <Base:DieMessageThird/>
+    </Base:Misc>
+    <Base:Details>
+      <Base:Detail id="default" prime="false" def="false" abstract="false" hidden="false" luminosity="0" targetable_in_dark="false" plural="false">
+        <Base:Preposition close="false" against="false" under="false" on="false" inside="false" near="false" over="false" behind="false" before="false" beside="false"/>
+        <Base:Names>
+          <Base:SNames>
+            <Base:SName sname="norbert"/>
+          </Base:SNames>
+          <Base:PNames/>
+        </Base:Names>
+        <Base:Adjectives/>
+        <Base:Descriptions/>
+        <Base:Exit door="false" closed="false" locked="false" never_obvious="false" obvious_when_open="false" hidden_when_closed="false" separate="false" self-locking="false" deadbolt="false"/>
+        <Base:Climbable/>
+      </Base:Detail>
+      <Base:Detail id="hair" prime="false" def="false" abstract="false" hidden="false" luminosity="0" targetable_in_dark="false" plural="false">
+        <Base:Preposition close="false" against="false" under="false" on="false" inside="false" near="false" over="false" behind="false" before="false" beside="false"/>
+        <Base:Names>
+          <Base:SNames>
+            <Base:SName sname="hair"/>
+          </Base:SNames>
+          <Base:PNames/>
+        </Base:Names>
+        <Base:Adjectives/>
+        <Base:Descriptions/>
+        <Base:Exit door="false" closed="false" locked="false" never_obvious="false" obvious_when_open="false" hidden_when_closed="false" separate="false" self-locking="false" deadbolt="false"/>
+        <Base:Climbable/>
+      </Base:Detail>
+    </Base:Details>
+    <Base:Clothing>
+      <Base:SingleWear value="false"/>
+    </Base:Clothing>
+    <Base:Crafting see_level="0" do_level="0" time="0" attention="false" held="false">
+      <Base:Ingredients/>
+      <Base:Tools/>
+      <Base:CraftVerbs/>
+    </Base:Crafting>
+    <Base:InitialContents/>
+    <Base:InitialProperties/>
+    <Core:Properties>
+      <Core:Property property="#traits[0]">"5"</Core:Property>
+      <Core:Property property="#traits[1]">
+         "haircolor"
+      </Core:Property>
+      <Core:Property property="#traits[2]">
+         "hairstyle"
+      </Core:Property>
+      <Core:Property property="#traits[3]">
+         "hairtype"
+      </Core:Property>
+      <Core:Property property="#traits[4]">
+         "hairlength"
+      </Core:Property>
+      <Core:Property property="#traits[5]">"symbol"</Core:Property>
+      <Core:Property property="appearance:browshape">
+         "ordinary"
+      </Core:Property>
+      <Core:Property property="appearance:build">
+         "ordinary"
+      </Core:Property>
+      <Core:Property property="appearance:cheekshape">
+         "ordinary"
+      </Core:Property>
+      <Core:Property property="appearance:earshape">
+         "ordinary"
+      </Core:Property>
+      <Core:Property property="appearance:eyebrowshape">
+         "ordinary"
+      </Core:Property>
+      <Core:Property property="appearance:eyecolor">
+         "black"
+      </Core:Property>
+      <Core:Property property="appearance:eyeshape">
+         "ordinary"
+      </Core:Property>
+      <Core:Property property="appearance:facialhair">
+         "none"
+      </Core:Property>
+      <Core:Property property="appearance:faciallength">
+         "trim"
+      </Core:Property>
+      <Core:Property property="appearance:haircolor">
+         "black"
+      </Core:Property>
+      <Core:Property property="appearance:haircoverage">
+         "ordinary"
+      </Core:Property>
+      <Core:Property property="appearance:hairlength">
+         "ordinary"
+      </Core:Property>
+      <Core:Property property="appearance:hairstyle">
+         "uncombed"
+      </Core:Property>
+      <Core:Property property="appearance:hairtype">
+         "ordinary"
+      </Core:Property>
+      <Core:Property property="appearance:hands">
+         "slender"
+      </Core:Property>
+      <Core:Property property="appearance:height">
+         "short"
+      </Core:Property>
+      <Core:Property property="appearance:jawshape">
+         "ordinary"
+      </Core:Property>
+      <Core:Property property="appearance:lipshape">
+         "ordinary"
+      </Core:Property>
+      <Core:Property property="appearance:mouthshape">
+         "ordinary"
+      </Core:Property>
+      <Core:Property property="appearance:noseshape">
+         "pert"
+      </Core:Property>
+      <Core:Property property="appearance:skin">
+         "fair"
+      </Core:Property>
+      <Core:Property property="appearance:symbol">
+         "none"
+      </Core:Property>
+      <Core:Property property="base:initialcontents">
+         (\{ \<[S7-Generic:clothing:preset:mens:tie-fourinhand-black-silk]#8521\>, \<[S7-Generic:clothing:preset:mens:shirt-longsleeved-white-cotton]#8570\>, \<[S7-Generic:clothing:preset:mens:shoes-wingtip-black-leather]#8571\>, \<[S7-Generic:clothing:preset:mens:jacket-suit-elegant-grey-wool]#8574\>, \<[S7-Generic:clothing:preset:mens:overcoat-wool-black]#8575\>, \<[S7-Generic:clothing:preset:mens:socks-black]#8586\>, \<[Mansion:props:smoking:lighter-cigarette]#8589\>, \<[Mansion:props:smoking:cigaretteholder-meerschaum]#8591\>, \<[Mansion:props:smoking:cigarette-turkish]#8592\>, \<[Mansion:props:smoking:cigarette-turkish]#8593\>, \<[Mansion:props:smoking:cigarette-turkish]#8594\>, \<[Mansion:props:smoking:cigarette-turkish]#8595\>, \<[S7-Generic:clothing:preset:mens:suspenders-black]#8597\>, \<[S7-Generic:clothing:preset:mens:trousers-suit-elegant-grey-wool]#8598\>, \<[S7-Generic:clothing:preset:mens:hat-homburg-grey]#8601\>, \<[Mansion:props:smoking:cigarette-turkish]#8602\>, \<[Mansion:props:smoking:case-cigarette]#8603\> \})
+      </Core:Property>
+      <Core:Property property="bilbo:inherit:act:unwear">
+         \<Generic:DB:UrPeople:misc\>
+      </Core:Property>
+      <Core:Property property="bilbo:inherit:act:unwield">
+         \<Generic:DB:UrPeople:misc\>
+      </Core:Property>
+      <Core:Property property="bilbo:inherit:act:wear">
+         \<Generic:DB:UrPeople:misc\>
+      </Core:Property>
+      <Core:Property property="bilbo:inherit:act:wield">
+         \<Generic:DB:UrPeople:misc\>
+      </Core:Property>
+      <Core:Property property="bilbo:inherit:react:+behead">
+         \<Generic:DB:UrPeople:woundsub\>
+      </Core:Property>
+      <Core:Property property="bilbo:inherit:react:+death">
+         \<Generic:DB:UrPeople:woundsub\>
+      </Core:Property>
+      <Core:Property property="bilbo:inherit:react:+ressurect">
+         \<Generic:DB:UrPeople:heal\>
+      </Core:Property>
+      <Core:Property property="bilbo:inherit:react:+title">
+         \<Generic:DB:UrPeople:misc\>
+      </Core:Property>
+      <Core:Property property="bilbo:inherit:react:+update">
+         \<Generic:DB:UrPeople:misc\>
+      </Core:Property>
+      <Core:Property property="bilbo:inherit:react:+wound">
+         \<Generic:DB:UrPeople:woundsub\>
+      </Core:Property>
+      <Core:Property property="bilbo:inherit:react:altersub">
+         \<Generic:DB:UrPeople:altersub\>
+      </Core:Property>
+      <Core:Property property="bilbo:inherit:react:descsub">
+         \<Generic:DB:UrPeople:descsub\>
+      </Core:Property>
+      <Core:Property property="bilbo:inherit:react:exitsub">
+         \<Generic:DB:UrPeople:misc\>
+      </Core:Property>
+      <Core:Property property="bilbo:inherit:react:heal">
+         \<Generic:DB:UrPeople:heal\>
+      </Core:Property>
+      <Core:Property property="bilbo:inherit:react:howsub">
+         \<Generic:DB:UrPeople:altersub\>
+      </Core:Property>
+      <Core:Property property="bilbo:inherit:react:listsub">
+         \<Generic:DB:UrPeople:altersub\>
+      </Core:Property>
+      <Core:Property property="bilbo:inherit:react:morph">
+         \<Generic:DB:UrPeople:morph\>
+      </Core:Property>
+      <Core:Property property="bilbo:inherit:react:style">
+         \<Generic:DB:UrPeople:altersub\>
+      </Core:Property>
+      <Core:Property property="bilbo:inherit:react:tattoo">
+         \<Generic:DB:UrPeople:altersub\>
+      </Core:Property>
+      <Core:Property property="bilbo:inherit:solo:linkdie">
+         \<Generic:DB:UrPeople:misc\>
+      </Core:Property>
+      <Core:Property property="bilbo:inherit:solo:login">
+         \<Generic:DB:UrPeople:misc\>
+      </Core:Property>
+      <Core:Property property="bilbo:inherit:solo:quit">
+         \<Generic:DB:UrPeople:misc\>
+      </Core:Property>
+      <Core:Property property="bilbo:inherit:solo:renamed">
+         \<Generic:DB:UrPeople:misc\>
+      </Core:Property>
+      <Core:Property property="bilbo:inherit:solo:wounded">
+         \<Generic:DB:UrPeople:woundsub\>
+      </Core:Property>
+      <Core:Property property="bilbo:inherit:solo:woundsub">
+         \<Generic:DB:UrPeople:woundsub\>
+      </Core:Property>
+      <Core:Property property="cdat:dc_stamp">
+         1614214203
+      </Core:Property>
+      <Core:Property property="cdat:lastlogin">
+         1614211304
+      </Core:Property>
+      <Core:Property property="cdat:lastlogout">
+         1614214204
+      </Core:Property>
+      <Core:Property property="cdat:recchk">0</Core:Property>
+      <Core:Property property="cdat:sessionlastlinkdie">
+         "12:50 AM, February 25th, 2021"
+      </Core:Property>
+      <Core:Property property="cdat:sessiontime">
+         2900
+      </Core:Property>
+      <Core:Property property="cdat:sessiontotal">1</Core:Property>
+      <Core:Property property="generic">"true"</Core:Property>
+      <Core:Property property="skotos:charname">
+         "norbert"
+      </Core:Property>
+      <Core:Property property="skotos:creation_time">
+         1614211237
+      </Core:Property>
+      <Core:Property property="skotos:creator">
+         "norbert"
+      </Core:Property>
+      <Core:Property property="skotos:playercapname">
+         "Norbert"
+      </Core:Property>
+      <Core:Property property="theatre:gender">
+         "male"
+      </Core:Property>
+      <Core:Property property="theatre:id">"Tavern"</Core:Property>
+      <Core:Property property="trait:brief">
+         "Norbert"
+      </Core:Property>
+      <Core:Property property="trait:brief:eye">
+         "black eye"
+      </Core:Property>
+      <Core:Property property="trait:brief:hair">
+         "black hair"
+      </Core:Property>
+      <Core:Property property="trait:comment">"none"</Core:Property>
+      <Core:Property property="trait:editor">"none"</Core:Property>
+      <Core:Property property="trait:examine">
+         "Norbert is a short man of fair complexion with a head of black hair, uncombed. Black eyes return your gaze from beneath ordinary eyebrows. You also note his pert nose."
+      </Core:Property>
+      <Core:Property property="trait:haircolor:detail">
+         "hair"
+      </Core:Property>
+      <Core:Property property="trait:haircolor:expert">
+         "Hairstylist"
+      </Core:Property>
+      <Core:Property property="trait:hairlength:detail">
+         "hair"
+      </Core:Property>
+      <Core:Property property="trait:hairlength:expert">
+         "Hairstylist"
+      </Core:Property>
+      <Core:Property property="trait:hairstyle:detail">
+         "hair"
+      </Core:Property>
+      <Core:Property property="trait:hairstyle:expert">
+         "Hairstylist"
+      </Core:Property>
+      <Core:Property property="trait:hairtype:detail">
+         "hair"
+      </Core:Property>
+      <Core:Property property="trait:hairtype:expert">
+         "Hairstylist"
+      </Core:Property>
+      <Core:Property property="trait:look">
+         "Norbert is a short man of fair complexion with a head of black hair, uncombed."
+      </Core:Property>
+      <Core:Property property="trait:look:eye">
+         "An eye."
+      </Core:Property>
+      <Core:Property property="trait:look:hair">
+         "A head of black hair, uncombed."
+      </Core:Property>
+      <Core:Property property="trait:nominative">
+         "he"
+      </Core:Property>
+      <Core:Property property="trait:objective">
+         "him"
+      </Core:Property>
+      <Core:Property property="trait:override:examine">
+         "none"
+      </Core:Property>
+      <Core:Property property="trait:override:look">
+         "none"
+      </Core:Property>
+      <Core:Property property="trait:possessive">
+         "his"
+      </Core:Property>
+      <Core:Property property="trait:scar-count">"0"</Core:Property>
+      <Core:Property property="trait:scar-minimum">
+         "0"
+      </Core:Property>
+      <Core:Property property="trait:scarname">
+         "none"
+      </Core:Property>
+      <Core:Property property="trait:sex">"man"</Core:Property>
+      <Core:Property property="trait:superbrief">
+         "Norbert"
+      </Core:Property>
+      <Core:Property property="trait:symbol:detail">
+         "tattoo"
+      </Core:Property>
+      <Core:Property property="trait:symbol:expert">
+         "Tattooist"
+      </Core:Property>
+      <Core:Property property="trait:symboltype">
+         "tattoo"
+      </Core:Property>
+    </Core:Properties>
+    <Notes:Notes/>
+  </Base:Thing>
+</object>

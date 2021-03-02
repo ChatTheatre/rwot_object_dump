@@ -1,0 +1,32 @@
+<object clone="/obj/properties" owner="Theatre">
+  <Core:PropertyContainer>
+    <Ur:UrObject/>
+    <Core:PCProperties>
+      <Core:Property property="err:5bf9b183ad0f89a8d8c595d69de1c1f2:call-trace">
+         (\{ 21, "RWOT:Tags:Chatter:exa_extra", "global:tag" \})
+      </Core:Property>
+      <Core:Property property="err:5bf9b183ad0f89a8d8c595d69de1c1f2:error">
+         "Bad argument 1 for kfun strlen [caught]"
+      </Core:Property>
+      <Core:Property property="err:5bf9b183ad0f89a8d8c595d69de1c1f2:most-recently-at">
+         1614479777
+      </Core:Property>
+      <Core:Property property="err:5bf9b183ad0f89a8d8c595d69de1c1f2:total-times">
+         3
+      </Core:Property>
+      <Core:Property property="err:daa11668265540be338124108f0e777a:call-trace">
+         (\{ 23, "RWOT:Tags:Chatter:exa_extra", "global:tag" \})
+      </Core:Property>
+      <Core:Property property="err:daa11668265540be338124108f0e777a:error">
+         "Bad argument 1 for kfun strlen [caught]"
+      </Core:Property>
+      <Core:Property property="err:daa11668265540be338124108f0e777a:most-recently-at">
+         1614480771
+      </Core:Property>
+      <Core:Property property="err:daa11668265540be338124108f0e777a:total-times">
+         5
+      </Core:Property>
+    </Core:PCProperties>
+    <Notes:Notes/>
+  </Core:PropertyContainer>
+</object>

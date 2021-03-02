@@ -5,6 +5,9 @@
       <Core:Property property="revisions">
          (\{ 1144052088, "-", "SYNC" \})
       </Core:Property>
+      <Core:Property property="shared_locks">
+         ([ \<Shared:clothing:ageless:leggings:pants-simple\>:\<UserAPI:UDats:s:sarah\>, \<Shared:clothing:ageless:shirts:shirt-longsleeved\>:\<UserAPI:UDats:s:sarah\> ])
+      </Core:Property>
       <Core:Property property="sync:last">1316904452</Core:Property>
       <Core:Property property="sync:start">
          1316904452

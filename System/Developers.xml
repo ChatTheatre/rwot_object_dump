@@ -1,6 +1,8 @@
 <object program="/usr/System/sys/devuserd">
   <System:Developers>
     <System:Developer user="admin"/>
+    <System:Developer user="noah"/>
+    <System:Developer user="sarah"/>
     <System:Developer user="skott"/>
   </System:Developers>
 </object>

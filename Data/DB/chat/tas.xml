@@ -33,7 +33,7 @@
          ([ "output":\<Lib:filter:lfc\> ])
       </Core:Property>
       <Core:Property property="chat:history">
-         (\{  \})
+         (\{ "17:29 [TAS\|System] \\"Sarah has proofed Shared:clothing:ageless:leggings:pants-simple.\\"" \})
       </Core:Property>
       <Core:Property property="chat:layout-emote">
          "(time) [(chat)] \\"(chatter)"
